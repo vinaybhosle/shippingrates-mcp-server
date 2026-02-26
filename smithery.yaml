@@ -1,0 +1,57 @@
+name: freightgate
+displayName: FreightGate
+description: Container shipping intelligence API — demurrage & detention charges, local charges, inland haulage, CFS tariffs for 6 major shipping lines across 9 countries. Pay-per-request with USDC via x402.
+icon: ⚓
+vendor:
+  name: SmartBiz AI
+  url: https://shippingrates.org
+
+server:
+  type: remote
+  url: https://mcp.shippingrates.org/mcp
+  transport: sse
+
+tools:
+  - name: dd_calculate
+    description: Calculate demurrage & detention costs for a shipping line, country, container type, and days
+    price: "$0.10"
+  - name: dd_compare
+    description: Compare D&D costs across all 6 shipping lines in one call
+    price: "$0.25"
+  - name: local_charges
+    description: Port local charges — THC, documentation, BL fees, seal fees
+    price: "$0.05"
+  - name: inland_search
+    description: Search inland transport routes by origin/destination
+    price: "$0.03"
+  - name: cfs_tariffs
+    description: Container Freight Station handling tariffs
+    price: "$0.05"
+  - name: inland_haulage
+    description: Inland haulage rates — trucking/rail from port to destination
+    price: "$0.05"
+  - name: list_lines
+    description: List available shipping lines with per-country breakdowns
+    price: free
+  - name: get_stats
+    description: Database statistics and coverage
+    price: free
+  - name: health_check
+    description: Server status and version
+    price: free
+
+categories:
+  - reference-data
+  - finance
+  - logistics
+
+tags:
+  - shipping
+  - freight
+  - demurrage
+  - detention
+  - logistics
+  - maritime
+  - x402
+  - usdc
+  - supply-chain

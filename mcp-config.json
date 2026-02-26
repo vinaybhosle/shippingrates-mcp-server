@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "freightgate": {
+      "url": "https://mcp.shippingrates.org/mcp"
+    }
+  }
+}
