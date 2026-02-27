@@ -1,5 +1,5 @@
-name: freightgate
-displayName: FreightGate
+name: shippingrates
+displayName: ShippingRates
 description: Container shipping intelligence API — demurrage & detention charges, local charges, inland haulage, CFS tariffs for 6 major shipping lines across 9 countries. Pay-per-request with USDC via x402.
 icon: ⚓
 vendor:
