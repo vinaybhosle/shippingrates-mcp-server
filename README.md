@@ -1,4 +1,4 @@
-# ⚓ FreightGate MCP Server
+# ⚓ ShippingRates MCP Server
 
 > Container shipping intelligence for AI agents — demurrage & detention, local charges, inland haulage, CFS tariffs. Pay-per-request with USDC via x402.
 
@@ -10,12 +10,12 @@
 
 ## Quick Start
 
-Add FreightGate to Claude Desktop, Cursor, or any MCP-compatible client:
+Add ShippingRates to Claude Desktop, Cursor, or any MCP-compatible client:
 
 ```json
 {
   "mcpServers": {
-    "freightgate": {
+    "shippingrates": {
       "url": "https://mcp.shippingrates.org/mcp"
     }
   }
@@ -58,7 +58,7 @@ That's it. 9 tools auto-discovered. 3 free + 6 paid via x402.
 
 ## Payment
 
-FreightGate uses the [x402 protocol](https://x402.org) — the internet's native payment standard for AI agents.
+ShippingRates uses the [x402 protocol](https://x402.org) — the internet's native payment standard for AI agents.
 
 - **Currency:** USDC (stablecoin, always $1.00)
 - **Networks:** Base Mainnet (EVM) + Solana Mainnet
@@ -190,11 +190,11 @@ curl -X POST https://api.shippingrates.org/api/dd/calculate \
 
 ## Discovery & Directories
 
-FreightGate is listed on:
+ShippingRates is listed on:
 
 | Directory | Status |
 |-----------|--------|
-| [Official MCP Registry](https://registry.modelcontextprotocol.io) | ✅ Live — `io.github.vinaybhosle/freightgate-mcp-server` |
+| [Official MCP Registry](https://registry.modelcontextprotocol.io) | ✅ Live — `io.github.vinaybhosle/shippingrates-mcp-server` |
 | [Smithery](https://smithery.ai) | ✅ Submitted |
 | [Glama](https://glama.ai/mcp/servers) | ✅ Submitted |
 | [mcp.so](https://mcp.so) | ✅ Submitted |
@@ -204,7 +204,7 @@ FreightGate is listed on:
 
 Built by [SmartBiz AI](https://shippingrates.org) — AI solutions for commercial shipping, based in Mumbai, India.
 
-FreightGate is the world's first x402-native shipping data API, purpose-built for AI agents and autonomous commerce.
+ShippingRates is the world's first x402-native shipping data API, purpose-built for AI agents and autonomous commerce.
 
 ## Links
 
@@ -217,6 +217,6 @@ FreightGate is the world's first x402-native shipping data API, purpose-built fo
 
 ## License
 
-This repository contains documentation and connection configuration only. The FreightGate API and MCP server are commercial services operated by SmartBiz AI.
+This repository contains documentation and connection configuration only. The ShippingRates API and MCP server are commercial services operated by SmartBiz AI.
 
 Usage of the API is governed by pay-per-request pricing via the x402 protocol.
